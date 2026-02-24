@@ -24,14 +24,14 @@
 Pour installer NanoVault et l'utiliser comme une commande globale :
 
 1. **Cloner le dépôt :**
-   '''bash
+   ```bash
    git clone [https://github.com/Loup0007A/Nanovault.git](https://github.com/Loup0007A/Nanovault.git)
    cd NanoVault
-   '''
+   ```
 2. **Installer le package :**
-    '''bash
+    ```bash
     pip install .
-    '''
+    ```
 
 ---
 
@@ -40,14 +40,14 @@ Pour installer NanoVault et l'utiliser comme une commande globale :
 Une fois installé, utilisez la commande nanovault directement :
 
 **📥 Cacher un secret**
-    '''bash
+    ```bash
     nanovault hide "image.png" "Message secret" "output.png" --password "MonPass"
-    '''
+    ```
 
 **📤 Extraire un secret**
-    '''bash
+    ```bash
     nanovault extract "output.png" --password "MonPass"
-    '''
+    ```
 
 ---
 
@@ -70,7 +70,7 @@ NanoVault manipule directement les octets du fichier PNG :
 
 Vous pouvez importer NanoVault dans vos projets :
 
-    '''python
+    ```python
     from nanovault import hide_data, extract_file
 
     # Cacher
@@ -79,7 +79,7 @@ Vous pouvez importer NanoVault dans vos projets :
     # Extraire
     msg = extract_file("password", "resultat.png")
     print(msg)
-    '''
+    ```
 
 ---
 
@@ -91,6 +91,7 @@ Distribué sous la licence MIT. Voir le fichier LICENSE pour plus de détails.
 
 
 Développé avec passion pour la cybersécurité en Pure Python.
+
 
 
 
