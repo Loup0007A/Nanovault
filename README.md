@@ -1,10 +1,10 @@
 # 🛡️ NanoVault
 
-[![Python Version](https://img.shields.io/badge/python-3.14-blue.svg)](https://www.python.org/)
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Security: Pure Python](https://img.shields.io/badge/Security-Pure%20Python-green.svg)](#)
 
-**NanoVault** est un outil de stéganographie binaire conçu pour dissimuler des messages chiffrés à l'intérieur d'images PNG. Basé sur les dernières fonctionnalités de **Python 3.14**, il se distingue par sa philosophie **"Zero-Dependency"** : tout le code repose exclusivement sur la bibliothèque standard.
+**NanoVault** est un outil de stéganographie binaire conçu pour dissimuler des messages chiffrés à l'intérieur d'images PNG. Basé sur les fonctionnalités de **Python 3.8+**, il se distingue par sa philosophie **"Zero-Dependency"** : tout le code repose exclusivement sur la bibliothèque standard.
 
 
 
@@ -91,6 +91,7 @@ Distribué sous la licence MIT. Voir le fichier LICENSE pour plus de détails.
 
 
 Développé avec passion pour la cybersécurité en Pure Python.
+
 
 
 
