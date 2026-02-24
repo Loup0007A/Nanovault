@@ -61,6 +61,7 @@ NanoVault manipule directement les octets du fichier PNG :
 
 2. **Injection Binaire**
     Le script scanne le fichier pour trouver le marqueur de fin officiel du PNG : \x49\x45\x4e\x44\xae\x42\x60\x82.
+   
     Le payload est construit comme suit :
     [IMAGE_ORIGINALE] + [START_SECRET] + [SALT] + [SALT_TAG] + [ENCRYPTED_DATA] + [END_SECRET]
 
@@ -88,5 +89,6 @@ Vous pouvez importer NanoVault dans vos projets :
 Distribué sous la licence MIT. Voir le fichier LICENSE pour plus de détails.
 
 ---
+
 
 Développé avec passion pour la cybersécurité en Pure Python.
