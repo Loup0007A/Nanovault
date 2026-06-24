@@ -2,7 +2,7 @@
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PyPI Downloads](https://static.pepy.tech/personalized-badge/nanovault?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/nanovault)
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/nanovault?period=total&units=INTERNATIONAL_SYSTEM&left_color=GRAY&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/nanovault)
 [![Security: Pure Python](https://img.shields.io/badge/Security-Pure%20Python-green.svg)](#)
 
 
